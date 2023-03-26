@@ -99,7 +99,7 @@ namespace DAO
         {
             try
             {
-                return DataProvider.Instance.ExecuteQuery("select * from dbo.NhanVien where idNV = @id", new object[] { id }).Rows.Count > 0;
+                return DataProvider.Instance.ExecuteQuery("select * from dbo.NhanVien where idNV = @id and taiKhoan IS NULL", new object[] { id }).Rows.Count > 0;
             }
             catch (SqlException e)
             {

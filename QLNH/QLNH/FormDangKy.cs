@@ -52,5 +52,10 @@ namespace QLNH
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void FormDangKy_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

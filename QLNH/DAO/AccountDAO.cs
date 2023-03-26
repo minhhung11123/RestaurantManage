@@ -26,6 +26,7 @@ namespace DAO
         {
             try
             {
+                a.MatKhau = MD5Hash(a.MatKhau);
                 string qr = "select * from dbo.TaiKhoan where taiKhoan = @tk and matKhau = @mk";
                 return DataProvider.Instance.ExecuteQuery(qr, new object[] { a.TaiKhoan, a.MatKhau }).Rows.Count > 0;
             }
@@ -75,6 +76,8 @@ namespace DAO
         {
             try
             {
+                a.MatKhau = MD5Hash(a.MatKhau);
+                a.MatKhau2 = MD5Hash(a.MatKhau2);
                 string qr = "insert into dbo.TaiKhoan values ( @taiKhoan , @matKhau , @matKhau2 , 1)";
                 object[] ob = new object[] { a.TaiKhoan, a.MatKhau, a.MatKhau2 };
                 return DataProvider.Instance.ExecuteNonQuery(qr, ob) > 0;
@@ -93,6 +96,8 @@ namespace DAO
         {
             try
             {
+                a.MatKhau = MD5Hash(a.MatKhau);
+                a.MatKhau2 = MD5Hash(a.MatKhau2);
                 string qr = "update dbo.TaiKhoan set matKhau = @mk where taiKhoan = @taiKhoan and matKhau2 = @mk2";
                 object[] ob = new object[] { a.MatKhau, a.TaiKhoan, a.MatKhau2 };
                 return DataProvider.Instance.ExecuteNonQuery(qr, ob) > 0;
@@ -122,6 +127,23 @@ namespace DAO
             catch (Exception ex)
             {
                 throw ex;
+            }
+        }
+
+        private string MD5Hash(string input)
+        {
+            using (MD5 md5 = MD5.Create())
+            {
+                byte[] inputBytes = Encoding.ASCII.GetBytes(input);
+
+                byte[] hashBytes = md5.ComputeHash(inputBytes);
+
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < hashBytes.Length; i++)
+                {
+                    sb.Append(hashBytes[i].ToString("x2"));
+                }
+                return sb.ToString();
             }
         }
     }

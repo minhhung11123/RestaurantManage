@@ -6,8 +6,8 @@ go
 create table TaiKhoan
 (
 	taiKhoan varchar(20) primary key,
-	matKhau varchar(20),
-	matKhau2 varchar(20),
+	matKhau varchar(32),
+	matKhau2 varchar(32),
 	loaiTK int
 )
 go
@@ -86,8 +86,8 @@ create table Kho
 )
 go
 
-insert into TaiKhoan values ('admin', 'admin', 'admin', 0)
-insert into TaiKhoan values ('123', '123', '123', 1)
+insert into TaiKhoan values ('admin', '21232f297a57a5a743894a0e4a801fc3', '21232f297a57a5a743894a0e4a801fc3', 0)
+insert into TaiKhoan values ('123', '202cb962ac59075b964b07152d234b70', '202cb962ac59075b964b07152d234b70', 1)
 go
 
 insert into NhanVien (hoTenNV,taiKhoan) values ('admin', 'admin')
@@ -334,3 +334,4 @@ begin
 	group by month(hd.thoiGianRa)
 end
 go
+

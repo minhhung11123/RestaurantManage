@@ -43,10 +43,10 @@
             // txtUserNameDK
             // 
             this.txtUserNameDK.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserNameDK.Location = new System.Drawing.Point(322, 141);
-            this.txtUserNameDK.Margin = new System.Windows.Forms.Padding(2);
+            this.txtUserNameDK.Location = new System.Drawing.Point(429, 174);
+            this.txtUserNameDK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUserNameDK.Name = "txtUserNameDK";
-            this.txtUserNameDK.Size = new System.Drawing.Size(179, 27);
+            this.txtUserNameDK.Size = new System.Drawing.Size(237, 32);
             this.txtUserNameDK.TabIndex = 29;
             // 
             // label5
@@ -55,20 +55,19 @@
             this.label5.BackColor = System.Drawing.Color.Black;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label5.Location = new System.Drawing.Point(123, 141);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(164, 174);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(195, 29);
+            this.label5.Size = new System.Drawing.Size(231, 33);
             this.label5.TabIndex = 28;
             this.label5.Text = "Tên đăng nhập:";
             // 
             // txtPass1
             // 
             this.txtPass1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass1.Location = new System.Drawing.Point(322, 188);
-            this.txtPass1.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPass1.Location = new System.Drawing.Point(429, 231);
+            this.txtPass1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPass1.Name = "txtPass1";
-            this.txtPass1.Size = new System.Drawing.Size(179, 27);
+            this.txtPass1.Size = new System.Drawing.Size(237, 32);
             this.txtPass1.TabIndex = 26;
             this.txtPass1.UseSystemPasswordChar = true;
             // 
@@ -78,10 +77,9 @@
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Yellow;
-            this.label1.Location = new System.Drawing.Point(132, 64);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(176, 79);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(381, 39);
+            this.label1.Size = new System.Drawing.Size(462, 48);
             this.label1.TabIndex = 20;
             this.label1.Text = "ĐĂNG KÝ TÀI KHOẢN";
             // 
@@ -90,10 +88,10 @@
             this.btnHoanTat.BackColor = System.Drawing.Color.Transparent;
             this.btnHoanTat.Font = new System.Drawing.Font("Franklin Gothic Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHoanTat.ForeColor = System.Drawing.Color.Black;
-            this.btnHoanTat.Location = new System.Drawing.Point(321, 326);
-            this.btnHoanTat.Margin = new System.Windows.Forms.Padding(2);
+            this.btnHoanTat.Location = new System.Drawing.Point(428, 401);
+            this.btnHoanTat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHoanTat.Name = "btnHoanTat";
-            this.btnHoanTat.Size = new System.Drawing.Size(178, 38);
+            this.btnHoanTat.Size = new System.Drawing.Size(237, 47);
             this.btnHoanTat.TabIndex = 30;
             this.btnHoanTat.Text = "Hoàn Tất";
             this.btnHoanTat.UseVisualStyleBackColor = false;
@@ -105,20 +103,19 @@
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label3.Location = new System.Drawing.Point(194, 186);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(259, 229);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 29);
+            this.label3.Size = new System.Drawing.Size(151, 33);
             this.label3.TabIndex = 23;
             this.label3.Text = "Mật khẩu:";
             // 
             // txtIDNVDK
             // 
             this.txtIDNVDK.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDNVDK.Location = new System.Drawing.Point(321, 279);
-            this.txtIDNVDK.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIDNVDK.Location = new System.Drawing.Point(428, 343);
+            this.txtIDNVDK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtIDNVDK.Name = "txtIDNVDK";
-            this.txtIDNVDK.Size = new System.Drawing.Size(179, 27);
+            this.txtIDNVDK.Size = new System.Drawing.Size(237, 32);
             this.txtIDNVDK.TabIndex = 34;
             // 
             // asf
@@ -127,20 +124,19 @@
             this.asf.BackColor = System.Drawing.Color.Black;
             this.asf.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.asf.ForeColor = System.Drawing.Color.RosyBrown;
-            this.asf.Location = new System.Drawing.Point(149, 275);
-            this.asf.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.asf.Location = new System.Drawing.Point(199, 338);
             this.asf.Name = "asf";
-            this.asf.Size = new System.Drawing.Size(168, 29);
+            this.asf.Size = new System.Drawing.Size(204, 33);
             this.asf.TabIndex = 33;
             this.asf.Text = "ID Nhân viên:";
             // 
             // txtPass2
             // 
             this.txtPass2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass2.Location = new System.Drawing.Point(321, 232);
-            this.txtPass2.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPass2.Location = new System.Drawing.Point(428, 286);
+            this.txtPass2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPass2.Name = "txtPass2";
-            this.txtPass2.Size = new System.Drawing.Size(179, 27);
+            this.txtPass2.Size = new System.Drawing.Size(237, 32);
             this.txtPass2.TabIndex = 36;
             this.txtPass2.UseSystemPasswordChar = true;
             // 
@@ -150,20 +146,19 @@
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label2.Location = new System.Drawing.Point(172, 230);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(229, 283);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 29);
+            this.label2.Size = new System.Drawing.Size(177, 33);
             this.label2.TabIndex = 35;
             this.label2.Text = "Mật khẩu 2:";
             // 
             // FormDangKy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QLNH.Properties.Resources._0_83oELz_ho5O2iyNt;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(638, 403);
+            this.ClientSize = new System.Drawing.Size(851, 496);
             this.Controls.Add(this.txtPass2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtIDNVDK);
@@ -174,9 +169,10 @@
             this.Controls.Add(this.txtPass1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormDangKy";
             this.Text = "Sign Up";
+            this.Load += new System.EventHandler(this.FormDangKy_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

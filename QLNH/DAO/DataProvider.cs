@@ -12,7 +12,7 @@ namespace DAO
     {
         private static DataProvider instance;
 
-        private string cnstring = @"Data Source=.\SQLEXPRESS;Initial Catalog=dbQLNH;Integrated Security=True";
+        private string cnstring = @"Data Source=MINHHUNG\MINHHUNG;Initial Catalog=dbQLNH;Integrated Security=True";
 
         internal static DataProvider Instance
         {
