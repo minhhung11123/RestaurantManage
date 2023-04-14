@@ -43,12 +43,12 @@
             this.btnLogin.BackColor = System.Drawing.Color.Transparent;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.Black;
-            this.btnLogin.Location = new System.Drawing.Point(507, 263);
+            this.btnLogin.Location = new System.Drawing.Point(443, 263);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(109, 48);
+            this.btnLogin.Size = new System.Drawing.Size(173, 48);
             this.btnLogin.TabIndex = 12;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -77,11 +77,11 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label3.Location = new System.Drawing.Point(205, 215);
+            this.label3.Location = new System.Drawing.Point(214, 216);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(160, 33);
+            this.label3.Size = new System.Drawing.Size(151, 33);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Password:";
+            this.label3.Text = "Mật khẩu:";
             // 
             // label2
             // 
@@ -89,11 +89,11 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label2.Location = new System.Drawing.Point(188, 162);
+            this.label2.Location = new System.Drawing.Point(204, 165);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(176, 33);
+            this.label2.Size = new System.Drawing.Size(161, 33);
             this.label2.TabIndex = 8;
-            this.label2.Text = "User name:";
+            this.label2.Text = "Tài khoản:";
             // 
             // label1
             // 
@@ -113,12 +113,12 @@
             this.llForgotPass.BackColor = System.Drawing.Color.Black;
             this.llForgotPass.DisabledLinkColor = System.Drawing.Color.Black;
             this.llForgotPass.LinkColor = System.Drawing.Color.Red;
-            this.llForgotPass.Location = new System.Drawing.Point(208, 263);
+            this.llForgotPass.Location = new System.Drawing.Point(154, 263);
             this.llForgotPass.Name = "llForgotPass";
-            this.llForgotPass.Size = new System.Drawing.Size(116, 16);
+            this.llForgotPass.Size = new System.Drawing.Size(103, 16);
             this.llForgotPass.TabIndex = 14;
             this.llForgotPass.TabStop = true;
-            this.llForgotPass.Text = "Forgot Password?";
+            this.llForgotPass.Text = "Quên mật khẩu?";
             this.llForgotPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llForgotPass_LinkClicked);
             // 
             // btnSignUp
@@ -126,12 +126,12 @@
             this.btnSignUp.BackColor = System.Drawing.Color.Transparent;
             this.btnSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignUp.ForeColor = System.Drawing.Color.Black;
-            this.btnSignUp.Location = new System.Drawing.Point(348, 263);
+            this.btnSignUp.Location = new System.Drawing.Point(284, 263);
             this.btnSignUp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(139, 48);
             this.btnSignUp.TabIndex = 15;
-            this.btnSignUp.Text = "Sign Up";
+            this.btnSignUp.Text = "Đăng Ký";
             this.btnSignUp.UseVisualStyleBackColor = false;
             this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
